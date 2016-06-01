@@ -6,7 +6,7 @@
 
     <groupId>xyz.dowenwork.npl</groupId>
     <artifactId>elasticsearch-analysis-dmseg</artifactId>
-    <version>1.0.0.RELEASE</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <description>Dm-segment analysis support for ElasticSearch</description>
@@ -15,14 +15,14 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <dependency.junit.version>4.12</dependency.junit.version>
-        <dependency.slf4j.version>1.7.16</dependency.slf4j.version>
-        <dependency.logback.version>1.1.5</dependency.logback.version>
-        <elasticsearch.version>2.2.0</elasticsearch.version>
-        <dependency.lucene.version>5.4.1</dependency.lucene.version>
+        <dependency.slf4j.version>1.7.21</dependency.slf4j.version>
+        <dependency.logback.version>1.1.7</dependency.logback.version>
+        <elasticsearch.version>2.3.3</elasticsearch.version>
+        <dependency.lucene.version>5.5.0</dependency.lucene.version>
         <dependency.dm-segment.version>1.0.1.RELEASE</dependency.dm-segment.version>
-        <dependency.curator.version>2.9.0</dependency.curator.version>
+        <dependency.curator.version>2.8.0</dependency.curator.version>
         <dependency.zookeeper.version>3.4.6</dependency.zookeeper.version>
-        <dependency.randomizedtesting.version>2.1.14</dependency.randomizedtesting.version>
+        <dependency.randomizedtesting.version>2.3.4</dependency.randomizedtesting.version>
         <elasticsearch.plugin.name>elasticsearch-analysis-dmseg</elasticsearch.plugin.name>
         <elasticsearch.plugin.classname>xyz.dowenwork.npl.dmseg.elasticsearch.DmIndicesAnalysisPlugin
         </elasticsearch.plugin.classname>
