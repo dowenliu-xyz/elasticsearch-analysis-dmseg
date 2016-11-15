@@ -6,7 +6,7 @@
 
     <groupId>xyz.dowenwork.npl</groupId>
     <artifactId>elasticsearch-analysis-dmseg</artifactId>
-    <version>5.0.0.0</version>
+    <version>5.0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <description>Dm-segment analysis support for ElasticSearch</description>
