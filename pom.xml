@@ -26,6 +26,7 @@
         <elasticsearch.plugin.name>elasticsearch-analysis-dmseg</elasticsearch.plugin.name>
         <elasticsearch.plugin.classname>xyz.dowenwork.npl.dmseg.elasticsearch.DmIndicesAnalysisPlugin</elasticsearch.plugin.classname>
         <maven.compiler.target>1.8</maven.compiler.target>
+        <dependency.log4j.version>2.6.2</dependency.log4j.version>
     </properties>
 
     <dependencies>
@@ -106,6 +107,12 @@
             <type>test-jar</type>
             <version>${elasticsearch.version}</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>${dependency.log4j.version}</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 
